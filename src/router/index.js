@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+// import HomeView from '../views/HomeView.vue'
 
 // import * as echarts from 'echarts/core'
 // import {
@@ -21,46 +21,46 @@ import HomeView from '../views/HomeView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    {
-      path: '/',
-      name: 'home',
-      component: HomeView
-    },
-    {
-      path: '/vote/:item',
-      name: 'vote',
-      component: () => import('../views/vote.vue')
-    },
-    {
-      path: '/confirm/:ansewer',
-      name: 'confirm',
-      component: () => import('../views/confirm.vue')
-    },
-    {
-      path: '/BakeQuestion',
-      name: 'BakeQuestion',
-      component: () => import('../views/BakeQuestion.vue')
-    },
-    {
-      path: '/List',
-      name: 'List',
-      component: () => import('../views/List.vue')
-    },
-    {
-      path: '/Update/:id',
-      name: 'Update',
-      component: () => import('../views/Update.vue')
-    },
-    {
-      path: '/statistics/:all',
-      name: 'statistics',
-      component: () => import('../views/statistics.vue')
-    },
-    {
-      path: '/userwrite/:user',
-      name: 'userwrite',
-      component: () => import('../views/userwrite.vue')
-    },
+    // {
+    //   path: '/',
+    //   name: 'home',
+    //   component: home
+    // },
+    // {
+    //   path: '/vote/:item',
+    //   name: 'vote',
+    //   component: () => import('../views/vote.vue')
+    // },
+    // {
+    //   path: '/confirm/:ansewer',
+    //   name: 'confirm',
+    //   component: () => import('../views/confirm.vue')
+    // },
+    // {
+    //   path: '/BakeQuestion',
+    //   name: 'BakeQuestion',
+    //   component: () => import('../views/BakeQuestion.vue')
+    // },
+    // {
+    //   path: '/List',
+    //   name: 'List',
+    //   component: () => import('../views/List.vue')
+    // },
+    // {
+    //   path: '/Update/:id',
+    //   name: 'Update',
+    //   component: () => import('../views/Update.vue')
+    // },
+    // {
+    //   path: '/statistics/:all',
+    //   name: 'statistics',
+    //   component: () => import('../views/statistics.vue')
+    // },
+    // {
+    //   path: '/userwrite/:user',
+    //   name: 'userwrite',
+    //   component: () => import('../views/userwrite.vue')
+    // },
     
 
     ]
